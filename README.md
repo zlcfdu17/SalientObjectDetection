@@ -1,2 +1,12 @@
 # SalientObjectDetection
-Salient object detection with topological features
+Embedding topological features into CNN salient object detection
+
+This project is now under constructed. 
+
+
+
+
+
+
+
+Some references: 
