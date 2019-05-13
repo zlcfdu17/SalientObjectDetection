@@ -2,9 +2,9 @@
 Embedding topological features into CNN salient object detection
 
 
+Put test images into ./Img, and run Salgen.sh to generate saliency maps in ./Salmap.
 
-This project is now under constructed.  
-
+This project is gathered by different types of files in our research and needs further cleaning up. 
 
 
 ##### Required tools:
