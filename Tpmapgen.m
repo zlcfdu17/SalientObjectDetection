@@ -17,7 +17,7 @@ if ~exist('slicmex', 'file')
 end
 
 ImgPath = '.\Img';
-SegPath = '.\Tpmapgen\tpmap';
+SegPath = '.\Tpmapgen\tmp';
 ims = dir(fullfile(ImgPath,'*.jpg*'));
 
 sigma = 0.5;
