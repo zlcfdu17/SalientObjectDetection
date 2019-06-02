@@ -1,3 +1,4 @@
+#!/bin/bash
 
 rm -f ./Tpmapgen/tmp
 mkdir ./Tpmapgen/tmp
