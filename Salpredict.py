@@ -29,6 +29,8 @@ segpath = './Tpmapgen/Tpmap'
 respath = './Salmap'
 imgs = os.listdir(imgpath)
 
+caffe.set_mode_gpu()
+caffe.set_device(0)
 net = caffe.Net(deploy,caffe_model,caffe.TEST) 
 
 transformer1 = caffe.io.Transformer({'data': net.blobs['data'].data.shape})  
